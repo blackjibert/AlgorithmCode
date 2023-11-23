@@ -19,7 +19,7 @@ class Solution
          }
          else 
          {
-            return str1.substr(0, gcd(str1.size(), str2.size()));
+            return str1.substr(0, gcd(str1.size(), str2.size())); //获得字符串str1中从第0位开始的长度为gcd的字符串
          }
       }
       int gcd(int a, int b)
