@@ -13,5 +13,10 @@
 ![Alt text](../pic/3sliding_window/image2.png)
 
 ### 1004. 最大连续1的个数 III
-
+给定一个二进制数组 nums 和一个整数 k，如果可以翻转最多 k 个 0 ，则返回 数组中连续 1 的最大个数 。
+![Alt text](../pic/3sliding_window/image3.png)
 ### 1493. 删掉一个元素以后全为 1 的最长子数组
+给你一个二进制数组 nums ，你需要从中删掉一个元素。
+请你在删掉元素的结果数组中，返回最长的且只包含 1 的非空子数组的长度。
+如果不存在这样的子数组，请返回0 。
+![Alt text](../pic/3sliding_window/image4.png)
