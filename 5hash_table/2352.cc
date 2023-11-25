@@ -23,9 +23,8 @@ class Solution
 };
 int main() {
    Solution ss;
-   // std::string s1="abcde", s2="aecdb"; //
-   std::string s1="aacabb", s2="bbcbaa";
-   bool res = ss.closeStrings(s1,s2);
+   std::vector<std::vector<int>> s={{3,1,2,2},{1,4,4,5},{2,4,2,2},{2,4,2,2}};
+   int res = ss.equalPairs(s);
    std::cout<<res<<std::endl;
    return 0;
 }
