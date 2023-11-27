@@ -4,6 +4,8 @@
         "cwchar": "cpp",
         "vector": "cpp",
         "algorithm": "cpp",
-        "functional": "cpp"
+        "functional": "cpp",
+        "queue": "cpp",
+        "ostream": "cpp"
     }
 }
