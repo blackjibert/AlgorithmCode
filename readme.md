@@ -3,8 +3,18 @@
 - git add readme.md
 - git commit -m "first commit"
 - // git branch -M main/master
-- git remote add origin git@github.com:blackjibert/AlgorithmCode.git
+- git remote add origin git@github.com:blackjibert/AlgorithmCode.git 把一个已有的本地仓库与github上新建的仓库关联，然后，把本地仓库的内容推送到GitHub仓库。
 - git push -u origin master/main
+- git log --pretty=oneline --abbrev-commit 查看历史提交的版本进行
+- git tag -a -m "备注" v1.0.0 50dbe3c //其中v1.0.0是版本信息，进行打上tag
+- git push origin v1.0.0 发布标签
+
+### 删除标签
+#### 删除本地标签
+- git tag -d v1.2.0
+#### 删除远程标签
+- 先删除本地标签： git tag -d v1.0.0  
+- 再使用push命令从远程删除：git push origin :refs/tags/v1.0.0
 
 ### 数组/字符串
 #### 1768. 交替合并字符串
