@@ -24,4 +24,4 @@ void printList(Node *head)
     std::cout << std::endl;
 }
 
-#endif // LISTNODE_H
+#endif // NODE_H
