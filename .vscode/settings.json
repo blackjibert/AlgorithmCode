@@ -7,6 +7,9 @@
         "functional": "cpp",
         "queue": "cpp",
         "ostream": "cpp",
-        "stack": "cpp"
+        "stack": "cpp", 
+        "bitset": "cpp"
     }
+   
+    // "cmake.cmakePath": "/usr/bin/cmake",
 }
