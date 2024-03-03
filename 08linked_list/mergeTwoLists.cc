@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 #include "include/node.h"
 
 class Solution
@@ -7,8 +8,9 @@ public:
     // 合并两个有序链表
     Node *mergeTwoLists(Node *head1, Node *head2)
     {
-        Node *pre = new Node(0);
-        Node *curr = pre;
+        // Node* pre = new Node(0);
+        // Node* curr = pre; //返回pre->next
+        Node pre,*curr=&pre; //和上面两行的区别，同时返回pre.next而不是pre->next
         while (head1 && head2)
         {
             if (head1->val < head2->val)
@@ -27,7 +29,7 @@ public:
             curr->next = head1;
         if (head2)
             curr->next = head2;
-        return pre->next;
+        return pre.next;
     }
 };
 
