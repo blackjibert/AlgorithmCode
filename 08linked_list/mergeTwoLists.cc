@@ -1,11 +1,10 @@
 #include <iostream>
-#include <queue>
 #include "include/node.h"
 
 class Solution
 {
 public:
-    // 合并有序链表
+    // 合并两个有序链表
     Node *mergeTwoLists(Node *head1, Node *head2)
     {
         Node *pre = new Node(0);

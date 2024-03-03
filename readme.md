@@ -116,3 +116,9 @@
 #### 2300. 咒语和药水的成功对数
 #### 162. 寻找峰值
 #### 875. 爱吃香蕉的珂珂
+
+### 逐渐增加leetcode100热题
+- https://leetcode.cn/problem-list/2cktkvj/?page=1
+
+### g++编译运行
+- g++ xx.cc -o xx
