@@ -9,6 +9,7 @@ struct TreeNode
     TreeNode* right;
     TreeNode() : val(0), left(nullptr), right(nullptr){};
     TreeNode(int value) : val(value), left(nullptr), right(nullptr) {};
+    TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
 };
 
 // 递归构建二叉树
