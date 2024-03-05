@@ -6,7 +6,7 @@
 class Solution
 {
 public:
-   double findMaxAverate(std::vector<int> &nums, int k)
+   double findMaxAverate(std::vector<int>& nums, int k)
    {
       int sum = 0, maxi = INT16_MIN;
       for (int i = 0; i < nums.size(); i++)
