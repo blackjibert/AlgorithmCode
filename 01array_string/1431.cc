@@ -3,7 +3,7 @@
 #include <vector>
 #include<algorithm>
 using namespace std;
-
+ 
 class Solution
 {
    public:
@@ -22,7 +22,7 @@ class Solution
       {
          return b==0 ?a:gcd(b, a%b);
       }
-
+ 
       vector<bool> kidsWithCandies(vector<int>&  candies, int extraCandies)
       {
          int Max=0;
